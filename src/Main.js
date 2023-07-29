@@ -35,9 +35,11 @@ function Main() {
               <Image src={user.photoURL} roundedCircle style={{ width: '30px', height: '30px', marginRight: '10px' }} />
               Profile
             </Dropdown.Item>
-            <Dropdown.Item>Another action</Dropdown.Item>
-            <Dropdown.Item>Another action</Dropdown.Item>
-                        <Dropdown.Item>Another action</Dropdown.Item>
+            <Dropdown.Item>Account</Dropdown.Item>
+            <Dropdown.Item>Theme</Dropdown.Item>
+            <Dropdown.Item>Notification</Dropdown.Item>
+            <Dropdown.Item>Invite</Dropdown.Item>
+            <Dropdown.Item>Setting</Dropdown.Item>
             <Dropdown.Item>
               <Button variant="danger" onClick={logout} size="sm" style={{ marginLeft: 'auto' }}>
                 Logout
