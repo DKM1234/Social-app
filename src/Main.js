@@ -28,7 +28,7 @@ function Main() {
   const LoginTrue = () => (
     <>
       <div className='container'>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px' }}>
           <p style={{ color: '#2fa959' }}>Welcome {user.displayName} ! </p>
           <DropdownButton id="dropdown-basic-button" size="sm" title="Edit Profile">
             <Dropdown.Item>
